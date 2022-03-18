@@ -1,0 +1,58 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 80%;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  padding: 10px;
+  img {
+    width: 300px;
+  }
+  p.title {
+    color: grey;
+    font-size: 18px;
+  }
+}
+
+.btn-container {
+  button {
+    border: none;
+    outline: 0;
+    padding: 8px;
+    color: white;
+    background-color: #04aa6d;
+    text-align: center;
+    cursor: pointer;
+    width: 150px;
+    font-size: 18px;
+    float: left;
+    margin-left: 9%;
+    margin-top: 5px;
+    a {
+      text-decoration: none;
+      color: white;
+    }
+  }
+  button:hover {
+    opacity: 0.7;
+  }
+}
+
+.profile-title {
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    max-width: 300px;
+    img {
+      width: 200px;
+    }
+  }
+  .btn-container {
+    button {
+      margin-left: 33%;
+      text-align: center;
+    }
+  }
+}
