@@ -10,10 +10,10 @@ This project is having the list of Customers which can be viewed in the landing 
 
 3. Then run the below commands in the root directory :\
    `npm install`\
-   `npm start`\
+   `npm start`
 
 4. Then open another terminal pointing to root directory and run:\
    `cd server`\
    `npm install`\
-   `npm start`\
+   `npm start`
 5. Once the above commands are successfully executed, open browser and access `http://localhost:3000/`
